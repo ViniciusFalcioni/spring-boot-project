@@ -1,25 +1,28 @@
+Este projeto consiste em um sistema de controle de estoque de remédios, que foi desenvolvido utilizando tecnologias tanto no frontend quanto no backend. 
+O objetivo principal é permitir o cadastro, edição, remoção e listagem de remédios em um banco de dados, bem como exibir informações detalhadas sobre cada remédio.
+
 Front-End:
 
-Vite: Utilizamos o Vite como nosso ambiente de desenvolvimento para o front-end. Ele oferece um carregamento rápido, facilitando o desenvolvimento React.
+Vite: Foi utilizado o Vite como ambiente de desenvolvimento para o front-end. Ele oferece um carregamento rápido, facilitando o desenvolvimento React.
 
 React: A biblioteca React é a base do nosso front-end. Ela nos permite criar interfaces de usuário dinâmicas e reativas.
 
 JavaScript: Utilizamos JavaScript para programar a lógica do lado do cliente em nosso projeto.
 
-Styled Components: O Styled Components é responsável pela estilização dos nossos componentes React, tornando o código mais organizado e fácil de manter.
+Styled Components: O Styled Components é responsável pela estilização dos componentes React, tornando o código mais organizado e fácil de manter.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Back-End:
 
-Spring Boot: No lado do servidor, adotamos o Spring Boot, um framework Java, para criar nossa aplicação web e API RESTful. O Spring Boot oferece configurações automáticas e simplifica o desenvolvimento Java.
+Spring Boot: No lado do servidor, Foi utilizado o Spring Boot, um framework Java, para criar nossa aplicação web e API RESTful. O Spring Boot oferece configurações automáticas e simplifica o desenvolvimento Java.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Bancos de Dados:
 
-H2: Utilizamos o banco de dados H2, um banco de dados em memória, para armazenar os dados da nossa aplicação. Também configuramos alguns remédios para serem cadastrados automaticamente assim que a aplicação é iniciada.
+H2: Foi utilizado o banco de dados H2, um banco de dados em memória, para armazenar os dados da aplicação. Também foi configurado alguns remédios para serem cadastrados automaticamente assim que a aplicação é iniciada.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
