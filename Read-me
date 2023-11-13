@@ -25,6 +25,7 @@ Bancos de Dados:
 H2: Foi utilizado o banco de dados H2, um banco de dados em memória, para armazenar os dados da aplicação. Também foi configurado alguns remédios para serem cadastrados automaticamente assim que a aplicação é iniciada.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Iniciando Spring Boot "mvn spring-boot:run"
 
 Acessando o Banco de Dados H2 pelo H2 Console:
 
