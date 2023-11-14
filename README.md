@@ -1,0 +1,68 @@
+# spring-boot-project
+
+Este projeto consiste em um sistema de controle de estoque de remédios, que foi desenvolvido utilizando tecnologias tanto no frontend quanto no backend. 
+O objetivo principal é permitir o cadastro, edição, remoção e listagem de remédios em um banco de dados, bem como exibir informações detalhadas sobre cada remédio.
+
+Front-End:
+
+Vite: Foi utilizado o Vite como ambiente de desenvolvimento para o front-end. Ele oferece um carregamento rápido, facilitando o desenvolvimento React.
+
+React: A biblioteca React é a base do nosso front-end. Ela nos permite criar interfaces de usuário dinâmicas e reativas.
+
+JavaScript: Utilizamos JavaScript para programar a lógica do lado do cliente em nosso projeto.
+
+Styled Components: O Styled Components é responsável pela estilização dos componentes React, tornando o código mais organizado e fácil de manter.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Back-End:
+
+Spring Boot: No lado do servidor, Foi utilizado o Spring Boot, um framework Java, para criar nossa aplicação web e API RESTful. O Spring Boot oferece configurações automáticas e simplifica o desenvolvimento Java.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bancos de Dados:
+
+H2: Foi utilizado o banco de dados H2, um banco de dados em memória, para armazenar os dados da aplicação. Também foi configurado alguns remédios para serem cadastrados automaticamente assim que a aplicação é iniciada.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Iniciando Spring Boot "mvn spring-boot:run"
+
+Acessando o Banco de Dados H2 pelo H2 Console:
+
+Certifique-se de que o seu servidor Spring Boot está em execução.
+
+Abra um navegador da web.
+
+Digite o seguinte URL na barra de endereço: http://localhost:8080/h2-console.
+
+Isso abrirá a página de login do console H2.
+
+No campo "JDBC URL", insira jdbc:h2:mem:testdb.
+
+No campo "User Name", Use o valor padrão "sa").
+
+No campo "Password", deixe-o em branco.
+
+Clique no botão "Connect" para acessar o banco de dados H2.
+
+Agora você terá acesso ao console H2, onde pode consultar e gerenciar o banco de dados. Certifique-se de que a URL e as credenciais estejam corretas.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Iniciando o Projeto React com o Comando npm run dev:
+
+Abra um terminal ou prompt de comando.
+
+Navegue até o diretório raiz do seu projeto React (onde está localizado o arquivo package.json).
+
+Execute o comando npm install para instalar as dependências do projeto, se ainda não tiver feito isso.
+
+Após a instalação das dependências, execute o comando npm run dev.
+
+Isso iniciará o servidor de desenvolvimento do Vite e irá compilar e servir o seu projeto React.
+
+No terminal, você verá uma mensagem indicando o endereço de acesso ao projeto, no meu caso http://127.0.0.1:5173/.
+
+Abra um navegador da web e digite o endereço http://127.0.0.1:5173/ para acessar a aplicação React em execução.
